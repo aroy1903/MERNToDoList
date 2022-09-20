@@ -1,0 +1,16 @@
+GET http://localhost:5000/todo
+
+###
+
+POST http://localhost:5000/todo/new
+Content-Type: application/json
+
+{
+    "text": "Get Buff"
+}
+
+###
+DELETE  http://localhost:5000/todo/delete/6327e1a9ccf005003972f4e7
+
+###
+PUT http://localhost:5000/todo/complete/6327de58108fee8a9369e82d
